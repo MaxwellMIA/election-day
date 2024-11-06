@@ -1,12 +1,12 @@
 /* Design Elements: with hover effects for navigation links. */
-/* colors: #121664 blue #D12929 red #ffffff white */
+/* colors: #2c23ac blue #ff4646 red #fff8d5 white */
 
 .ccw{
     font-size: small;
 }
 
 h3 {
-    color: #dedede;
+    
 }
 
 img {
@@ -14,7 +14,7 @@ img {
 }
 
 body {
-    background-color: #121664;
+    background-color: #fff8d5
 }
 
 h1, h2 {
@@ -33,7 +33,7 @@ h1, h2 {
     text-transform: uppercase;
     text-align: center;
     display: block;
-    color: #dedede;
+    color: #fff8d5;
     font-size: 1.3em;
     font-family: "Barrio", system-ui;
 }
@@ -45,28 +45,31 @@ h1, h2 {
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
-    border: 1px solid #aa0909;
-    background-color: #aa0909;
+    border: 1px solid #2c23ac;
+    background-color: #2c23ac;
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
     border-radius: 5px;
     z-index: 100;
 }
 
 .one{
-    background-color: #aa0909;
+    background-color: #2c23ac;
     p {
-        color: #121664;
+        color: #ff4646;
     }
 }
 
 .two {
-
+    background-color: #c60000;
+    p {
+        color: #a9a5ff;
+    }
 }
 
 
 
 #bs {
-    
+    /*hover code here plssssss*/
 }
 
 
