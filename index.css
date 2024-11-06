@@ -1,9 +1,107 @@
-/* add to index after index is finshed.*/
-
-/* Design Elements: 
-Responsive Navigation Bar: Links to each section of the page
-Images: Relevant images from Unsplash
-Text Content: Provided Below
-CSS styling: Consistent color scheme inspired by the American flag (red, white, blue), with hover effects for navigation links. */
-
+/* Design Elements: with hover effects for navigation links. */
 /* colors: #121664 blue #D12929 red #ffffff white */
+
+.ccw{
+    font-size: small;
+}
+
+h3 {
+    color: #dedede;
+}
+
+img {
+    width: 30%;
+}
+
+body {
+    background-color: #121664;
+}
+
+h1, h2 {
+    color: #aa0909;
+}
+
+.main-nav, .header {
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: #dedede;
+    font-size: 1.3em;
+    font-family: "Barrio", system-ui;
+}
+
+.main-nav li{
+    list-style: none;
+}
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #aa0909;
+    background-color: #aa0909;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.one{
+    background-color: #aa0909;
+    p {
+        color: #121664;
+    }
+}
+
+.two {
+
+}
+
+
+
+#bs {
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    .header,
+    .main-nav {
+        display: flex;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        .header {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        }
+    }
+
+@media screen and (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1850px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+}
+
+}
